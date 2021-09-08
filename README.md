@@ -1,21 +1,21 @@
 
-# react-native-voip-call
+# react-native-voip
 
 ## Getting started
 ### Npm
 ```bash
-$ npm install react-native-voip-call --save
+$ npm install react-native-voip --save
 ```
 
 ### Yarn
 ```bash
-$ yarn add react-native-voip-call
+$ yarn add react-native-voip
 ```
 
 
 ### Mostly automatic installation RN < 0.60.x
 
-`$ react-native link react-native-voip-call`
+`$ react-native link react-native-voip`
 
 
 ### ios Installation
@@ -35,7 +35,7 @@ Link required libraries
 #### `import this package as your needed places`
 
 ```javascript
-  import RNVoipCall  from 'react-native-voip-call';
+  import RNVoipCall  from 'react-native-voip';
 ```
 
 ### 1. initialize Call (IOS Required)
@@ -303,7 +303,7 @@ import {
   Platform,
   Button
 } from 'react-native';
-import RNVoipCall, { RNVoipPushKit } from 'react-native-voip-call';
+import RNVoipCall, { RNVoipPushKit } from 'react-native-voip';
 
 const IsIos = Platform.OS === 'ios';
 
